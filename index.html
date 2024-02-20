@@ -9,15 +9,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
-  </head>
+</head>
 
 <body>
   <header>
 
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid d-flex justify-content-evenly px-0">
-        <a class="navbar-brand col-sm-6 ps-5" href="#">Acasă</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand col-sm-6 ps-5 fs-2 fw-bold" href="#">Acasă</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse col-sm-6 justify-content-end pe-5" id="navbarNav">
@@ -28,8 +29,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Galerie</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Prețuri</a>
+            <li class="nav-item fw-semibold">
+              <a class="nav-link " href="#">Prețuri</a>
             </li>
           </ul>
         </div>
@@ -39,12 +40,122 @@
   </header>
   <main>
 
-    <div class="container">
+
+    <div class="container price-list">
       <div class="row">
-        <div class="col-sm-4">col one</div>
-        <div class="col-sm-8">col two</div>
+        <div class="d-flex fs-3 justify-content-center py-5">Listă de prețuri</div>
+      </div>
+      <div class="row price-items text-center fs-4 py-1 fw-bold">
+        <div class="col px-5">Manichiură
+
+          <div class="row mt-4 justify-content-center fs-6">PROTECȚIE PE UNGHIA NATURALĂ
+            <div class="col-8 fw-normal text-start">
+              <div class="row">- ojă semipermanentă</div>
+              <div class="row">- gel</div>
+            </div>
+            <div class="col-4 align-self-center">
+              <div class="row justify-content-center">150 Ron</div>
+            </div>
+          </div>
+
+          <div class="row mt-2 justify-content-center fs-6">UNGHII TEHNICE
+            <div class="col-8 fw-normal text-start">
+              <div class="row">- construcție</div>
+              <div class="row">- întreținere</div>
+              <div class="row">- întreținere cu schimbarea arhitecturii</div>
+            </div>
+            <div class="col-4">
+              <div class="row justify-content-center">250 Ron</div>
+              <div class="row justify-content-center">200 Ron</div>
+              <div class="row justify-content-center">200 Ron</div>
+            </div>
+          </div>
+
+          <div class="row mt-2 justify-content-center fs-6">SLIM
+            <div class="row px-0">
+              <div class="col-8 fw-normal text-start">
+                <div class="row">- construcție</div>
+                <div class="row">- întreținere</div>
+              </div>
+              <div class="col-4">
+                <div class="row justify-content-center">250 Ron</div>
+                <div class="row justify-content-center">200 Ron</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-2 justify-content-center fs-6">TAXE SUPLIMENTARE
+            <div class="col-8 fw-normal text-start">
+              <div class="row">- design (complex)</div>
+              <div class="row">- babyboomer</div>
+              <div class="row">- french</div>
+            </div>
+            <div class="col-4">
+              <div class="row justify-content-center">10 Ron</div>
+              <div class="row justify-content-center">25 Ron</div>
+              <div class="row justify-content-center">25 Ron</div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col px-5">Pedichiură
+          <div class="row mt-4">
+            <div class="col-8 fw-normal text-start fs-6">
+              <div class="row">- IGIENIZARE (curățare unghii și tălpi fără probleme)</div>
+            </div>
+            <div class="col-4 fs-6 align-self-center">100 Ron</div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-8 fw-normal text-start fs-6">
+              <div class="row">- PEDICHIURĂ ESTETICĂ (curățare unghii și tălpi fără probleme, aplicare ojă
+                semipermanentă)</div>
+            </div>
+            <div class="col-4 fs-6 align-self-center">150 Ron</div>
+          </div>
+          <div class="row my-2 justify-content-center">KART</div>
+          <div class="row mt-4">
+            <div class="col-8 fw-normal text-start fs-6">
+              <div class="row">- IGIENIZARE (curățare unghii și tălpi problematice cu ajutorul produselor KART)</div>
+            </div>
+            <div class="col-4 fs-6 align-self-center">180 Ron</div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-8 fw-normal text-start fs-6">
+              <div class="row">- PEDICHIURĂ ESTETICĂ (curățare unghii și tălpi problematice cu ajutorul produselor KART,
+                aplicare ojă semipermanentă, tratament la finalul procedurii ce ajută la restabilirea pielii)</div>
+            </div>
+            <div class="col-4 fs-6 align-self-center">220 Ron</div>
+          </div>
+        </div>
+        <div class="col px-5">Pedichiură Medicală
+          <div class="row mt-4 fs-6">
+            <div class="col-8 align-self-center fw-normal">- Curățare onicomicoză</div>
+            <div class="col-4 align-self-center">80 Ron/unghie</div>
+          </div>
+          <div class="row fs-6">
+            <div class="col-8 align-self-center fw-normal">- Curățare onicoliză</div>
+            <div class="col-4 align-self-center">80 Ron/unghie</div>
+          </div>
+          <div class="row fs-6">
+            <div class="col-8 align-self-center fw-normal">- Curățare onicogrifoză</div>
+            <div class="col-4 align-self-center">120 Ron/unghie</div>
+          </div>
+          <div class="row fs-6">
+            <div class="col-8 align-self-center fw-normal">- întreținere</div>
+            <div class="col-4 align-self-center">50 Ron/unghie</div>
+          </div>
+          <div class="row fs-6">
+            <div class="col-8 align-self-center fw-normal">- Aplicare FIR DE TITAN</div>
+            <div class="col-4 align-self-center">160 Ron/unghie</div>
+          </div>
+        </div>
+
       </div>
     </div>
+
+
 
   </main>
   <footer>

@@ -1,27 +1,33 @@
 body {
-    background-color: var(--light-yellow);
+    background-color: var(--lavander-blush);
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     user-select: none;
+    color: var(--eerie-black);
 }
 
 :root {
-    --dark: #303952;
-    --light-blue: #63cdda;
-    --light-yellow: #f7d794;
-    --dark-yellow: #f5cd79;
-    --light-pink: #f8a5c2;
-    --purple: #574b90;
+    --eerie-black: #1F1E1E;
+    --licorice: #25181B;
+    --wenge: #604D53;
+    --cadet-gray: #9DA3A4;
+    --puce: #DB7F8E;
+    --french-gray: #D5C5C8;
+    --misty-rose: #FFDBDA;
+    --lavander-blush: #FBEEF0;
+    --snow: #F7F3F3;
 }
 
 .navbar {
-    background-color: var(--light-pink);
-    color: var(--light-blue);
+    background-color: var(--misty-rose);
 }
-
-.nav-item {
-    color: var(--light-blue);
+.price-items {
+    background-color: var(--french-gray);
+}
+.price {
+    height: 100%;
+    border-left:  1px solid #DB7F8E;
 }
