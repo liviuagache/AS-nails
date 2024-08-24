@@ -1,12 +1,10 @@
 body {
-    background-color: var(--lavander-blush);
     height: 100vh;
     width: 100vw;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     user-select: none;
-    color: var(--eerie-black);
 }
 
 :root {
@@ -22,12 +20,54 @@ body {
 }
 
 .navbar {
-    background-color: var(--misty-rose);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
-.price-items {
-    background-color: var(--french-gray);
+
+.full-height {
+    height: 100vh;
 }
-.price {
-    height: 100%;
-    border-left:  1px solid #DB7F8E;
+
+.bg-col-1 {
+    background-image: url(/Images/448193789_488844800374772_8295643458802830699_n.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    transition: .5s;
+}
+.bg-col-1:hover {
+    opacity: 100%;
+}
+.bg-col-2 {
+    background-image: url(/Images/437334470_3520586274828294_4243482714786206376_n.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    transition: .5s;
+}
+.bg-col-2:hover {
+    opacity: 100%;
+}
+.bg-col-3 {
+    background-image: url(/Images/423807877_328370412854221_3880768647132918691_n.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    transition: .5s;
+}
+.bg-col-3:hover {
+    opacity: 100%;
+}
+.bg-col-4 {
+    background-image: url(/Images/416405307_714261300802674_3465846611160689652_n.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    transition: .5s;
+}
+.bg-col-4:hover {
+    opacity: 100%;
 }
