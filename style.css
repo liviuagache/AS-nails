@@ -32,7 +32,7 @@ body {
 }
 
 .bg-col-1 {
-    background-image: url('/Images/1.jpg');
+    background-image: url('Images/1.jpg');
     background-size: cover;
     background-position: center;
     opacity: 80%;
@@ -42,7 +42,7 @@ body {
     opacity: 100%;
 }
 .bg-col-2 {
-    background-image: url('/Images/2.jpg');
+    background-image: url('Images/2.jpg');
     background-size: cover;
     background-position: center;
     opacity: 80%;
@@ -52,7 +52,7 @@ body {
     opacity: 100%;
 }
 .bg-col-3 {
-    background-image: url('/Images/3.jpg');
+    background-image: url('Images/3.jpg');
     background-size: cover;
     background-position: center;
     opacity: 80%;
@@ -62,7 +62,7 @@ body {
     opacity: 100%;
 }
 .bg-col-4 {
-    background-image: url('/Images/4.jpg');
+    background-image: url('Images/4.jpg');
     background-size: cover;
     background-position: center;
     opacity: 80%;
